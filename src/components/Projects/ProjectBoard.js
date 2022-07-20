@@ -8,7 +8,7 @@ function ProjectBoard({ isNavOpen }) {
       <div className="container mx-auto py-16 px-10">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl font-bold">Projects</h1>
-          <Link to="upload_project" className="px-5 py-3 bg-blue-500 text-white font-semibold rounded-full">Upload Project</Link>
+          <Link to="/project_upload" className="px-5 py-3 bg-blue-500 text-white font-semibold rounded-full">Upload Project</Link>
         </div>
         <ProjectGallery />
       </div>

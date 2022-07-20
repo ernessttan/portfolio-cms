@@ -7,12 +7,19 @@
         height: 100vh
     }
     
-    main {
+    .app {
         height: 100%;
         width: 100%;
         display: grid;
         grid-template-columns: 0.6fr 1.1fr 1fr; 
         grid-template-rows: 0.3fr 1.7fr 1fr; 
+        gap: 0px 0px; 
+    }
+
+    .upload-grid {
+        display: grid; 
+        grid-template-columns: 1.6fr 0.4fr; 
+        grid-template-rows: 0.2 1.8fr; 
         gap: 0px 0px; 
     }
 }

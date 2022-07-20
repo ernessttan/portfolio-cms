@@ -13,7 +13,7 @@ function Navbar({ isNavOpen }) {
         Ernest
       </h1>
       <div className="mt-10 flex flex-col gap-8">
-        <NavLink to="/projects" className="flex items-center gap-3 text-white">
+        <NavLink to="/" className="flex items-center gap-3 text-white">
           <BriefcaseIcon className="w-9 h-9" />
           <h2 className="font-semibold text-3xl">Projects</h2>
         </NavLink>
